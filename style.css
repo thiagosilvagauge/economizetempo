@@ -1,0 +1,31 @@
+/*
+Theme Name: Economize Tempo
+Theme URI: https://economizetempo.com
+Author: Thiago, Gabriel
+Description: Um tema personalizado para o blog de notícias do economize tempo.
+Version: 1.0
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; /* Para títulos, usa o peso 700 (negrito) */
+}
+
+p, li, a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; /* Para parágrafos e texto normal, usa o peso 400 (normal) */
+}
+
+.container {
+    max-width: 1248px;
+    margin: 0 auto;
+}

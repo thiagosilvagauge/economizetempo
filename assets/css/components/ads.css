@@ -1,0 +1,14 @@
+.ad-horizontal {
+    width: 1248px;
+    margin: 0 auto;
+    padding: 16px 0;
+}
+
+.ad--square {
+    margin-top: 16px;
+}
+
+.ad-vertical {
+    display: flex;
+    justify-content: flex-end;
+}

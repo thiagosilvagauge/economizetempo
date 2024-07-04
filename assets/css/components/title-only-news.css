@@ -1,0 +1,9 @@
+.news-title-item {
+    position: relative;
+    text-decoration: none;
+}
+
+.news-title-item h3 {
+    font-size: 16px;
+    color: #000000;
+}

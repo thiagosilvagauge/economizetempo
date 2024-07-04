@@ -1,0 +1,37 @@
+.news-grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: 625px 357px 1fr;
+    gap: 53px;
+}
+
+.news-col {
+    margin-bottom: 16px;
+}
+
+.news-col > .news-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.news-col > .news-row.news-row--vertical {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.tag {
+    font-weight: 800;
+    font-size: 12px;
+    color: #000;
+}
+
+.tag--esporte {
+    color: #06aa48;
+}
+.tag--viagem {
+    color: #ff6700;
+}
